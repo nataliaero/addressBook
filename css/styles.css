@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.bgAddressBook {
+  border-radius: 25px;
+  background-image: url("../img/wrinkled-paper.jpg");
+  margin: 40px 60px;
+  height: 95vh;
+}
+
+.layer {
+  background-color: rgba(251, 251, 233, 0.7);
+  border-radius: 25px;
+  height: 95vh;
+}
+
+.header {
+  display: flex;
+  justify-content: left;
+}
+
+.logoBox {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin: 20px 5px 20px 20px;
+}
+.headerTitle {
+  font-family: "Indie Flower";
+  font-size: 50px;
+  width: 350px;
+  margin: 20px 0px 20px 20px;
+}
+
+.main {
+  display:flex;
+  justify-content: space-between;
+  align-items: top;
+}
+
+.menu{
+  display:flex;
+  flex-direction: column;
+  width: 16%;
+}
+
+.formatButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #ffa05a;
+}
+
+.btnTitle {
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.formatButton:focus {outline:0;}
+
+.divFilter{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#txtFilter{
+  height: 40px;
+  width: 165px;
+  margin: 20px 5px 20px 20px;
+
+}
+
+.searchBtn {
+  border-radius: 5px;
+  background-color: #ffa05a;
+  padding: 5px 5px;
+
+}
+.searchBtn:focus {outline:0;}
+
+.glass {
+  height: 25px;
+}
+
+.addressBook {
+  display:flex;
+  justify-content: center;
+  align-items: top;
+  width: 84%;
+  margin-top: 20px;
+  overflow-y: auto;
+  max-height: 70vh;
+
+}
+
+.addressTbl {
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.addressTbl th {
+  font-family: "Lato";
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #ffa05a;
+}
+
+#chBox {
+  height: 15px;
+}
+
+#chBoxAll {
+  height: 15px;
+}
+
+.addressTbl td {
+  font-family: "Indie Flower";
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.contact {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background-color: #ffa05a;
+  padding: 120px;
+  display: none;
+}
+
+#titleContactForm {
+  font-family: "Indie Flower";
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.formData {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family: "Lato";
+  font-size: 20px;
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+.label {
+  margin-right: 20px;
+  width: 120px;
+}
+
+.inputTxt{
+  font-family: "Lato";
+  font-size: 18px;
+  height: 30px;
+  width: 400px;
+}
+
+.exitBtn{
+  font-family: "Indie Flower";
+  font-size: 25px;
+  position: absolute;
+  width: 30px;
+  left: 90%;
+  top: 10%;
+}
+
+.saveBtn{
+  font-family: "Indie Flower";
+  font-size: 25px;
+  position: absolute;
+  left: 76.5%;
+  top: 80%;
+  padding: 5px;
+}
